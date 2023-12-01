@@ -1,0 +1,14 @@
+ul a+ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s linear;
+}
+
+ul a:focus+ul {
+    max-height: 15em;
+}
+
+/* only select that link , here using the href attribute */
+a[href="nowhere"]:focus {
+    pointer-events: none;
+}

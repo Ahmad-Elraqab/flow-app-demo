@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="97" viewBox="0 0 147 97">
+  <g id="Group_416" data-name="Group 416" transform="translate(-597 -123)">
+    <g id="Group_19109" data-name="Group 19109">
+      <path id="Vector_54" data-name="Vector 54" d="M0,44V0" transform="matrix(1, 0, 0, 1, 610, 150)" fill="none" stroke="#eee" stroke-width="1.005"/>
+      <path id="Vector_55" data-name="Vector 55" d="M0,29V0" transform="translate(643 165)" fill="none" stroke="#eee" stroke-width="1.005"/>
+      <path id="Vector_56" data-name="Vector 56" d="M0,64V0" transform="matrix(1, 0, 0, 1, 674, 130)" fill="none" stroke="#eee" stroke-width="1.005"/>
+      <path id="Vector_57" data-name="Vector 57" d="M0,52V0" transform="matrix(1, 0, 0, 1, 707, 142)" fill="none" stroke="#eee" stroke-width="1.005"/>
+      <path id="Vector_58" data-name="Vector 58" d="M0,66V0" transform="matrix(1, 0, 0, 1, 739, 128)" fill="none" stroke="#eee" stroke-width="1.005"/>
+      <path id="Vector_59" data-name="Vector 59" d="M0,25.729,32.223,40.217,63.947,2,96.171,17.985,128.144,0" transform="translate(610.308 127.746)" fill="none" stroke="#089479" stroke-width="2.01"/>
+      <circle id="Ellipse_84" data-name="Ellipse 84" cx="5.495" cy="5.495" r="5.495" transform="translate(605 149.477)" fill="#089479"/>
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="2.498" cy="2.498" r="2.498" transform="translate(607.809 152.476)" fill="#fff"/>
+      <circle id="Ellipse_86" data-name="Ellipse 86" cx="5.495" cy="5.495" r="5.495" transform="translate(637.163 161.969)" fill="#089479"/>
+      <circle id="Ellipse_87" data-name="Ellipse 87" cx="2.498" cy="2.498" r="2.498" transform="translate(639.783 164.966)" fill="#fff"/>
+      <circle id="Ellipse_88" data-name="Ellipse 88" cx="5.495" cy="5.495" r="5.495" transform="translate(668.316 124.998)" fill="#089479"/>
+      <circle id="Ellipse_89" data-name="Ellipse 89" cx="2.498" cy="2.498" r="2.498" transform="translate(671.757 127.998)" fill="#fff"/>
+      <circle id="Ellipse_90" data-name="Ellipse 90" cx="5.495" cy="5.495" r="5.495" transform="translate(700.478 139.988)" fill="#089479"/>
+      <circle id="Ellipse_91" data-name="Ellipse 91" cx="2.498" cy="2.498" r="2.498" transform="translate(703.728 142.984)" fill="#fff"/>
+      <circle id="Ellipse_92" data-name="Ellipse 92" cx="5.495" cy="5.495" r="5.495" transform="translate(732.643 123)" fill="#089479"/>
+      <circle id="Ellipse_93" data-name="Ellipse 93" cx="2.498" cy="2.498" r="2.498" transform="translate(735.705 126)" fill="#fff"/>
+    </g>
+    <text id="_1st_yr_03" data-name="1st yr 03" transform="translate(597 200)" fill="#798998" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="3.087" y="7">1st </tspan><tspan x="5.16" y="16">yr</tspan></text>
+    <text id="_2nd_yr_02" data-name="2nd yr 02" transform="translate(628 200)" fill="#798998" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0.423" y="7">2nd yr</tspan><tspan fill="#364f65" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="6.021" y="16">02</tspan></tspan></text>
+    <text id="_5th_yr_05" data-name="5th yr 05" transform="translate(725 200)" fill="#798998" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0.757" y="7">5th yr</tspan><tspan fill="#364f65" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="5.521" y="16">05</tspan></tspan></text>
+    <text id="_3rd_yr_05" data-name="3rd yr 05" transform="translate(660 200)" fill="#798998" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0.17" y="7">3rd yr</tspan><tspan fill="#364f65" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="5.021" y="16">05</tspan></tspan></text>
+    <text id="_4th_yr_04" data-name="4th yr 04" transform="translate(692 200)" fill="#798998" font-size="7" font-family="Roboto-Regular, Roboto"><tspan x="0.757" y="7">4th yr</tspan><tspan fill="#364f65" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="5.521" y="16">04</tspan></tspan></text>
+  </g>
+</svg>

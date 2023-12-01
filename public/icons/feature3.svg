@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1172.04" height="705" viewBox="0 0 1172.04 705">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.541" y1="0.5" x2="0.534" y2="1.24" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Rectangle_115" x="0" y="0" width="1099" height="650.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_116" x="607.04" y="84.5" width="565" height="620.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_418" data-name="Group 418" transform="translate(-710 -2083)">
+    <g id="Group_417" data-name="Group 417">
+      <g transform="matrix(1, 0, 0, 1, 710, 2083)" filter="url(#Rectangle_115)">
+        <rect id="Rectangle_115-2" data-name="Rectangle 115" width="949" height="500.5" rx="49" transform="translate(75 65)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Title2" transform="translate(858 2234)">
+        <text id="Monthly_activity" data-name="Monthly activity" transform="translate(0 19)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">Monthly activity</tspan></text>
+      </g>
+      <g id="Interface_Dashboards_2" data-name="Interface/Dashboards/2" transform="translate(858 2300)">
+        <g id="Table">
+          <g id="Number">
+            <text id="_200" data-name="200" transform="translate(0 241)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">200</tspan></text>
+            <text id="_400" data-name="400" transform="translate(0 167)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">400</tspan></text>
+            <text id="_600" data-name="600" transform="translate(0 93)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">600</tspan></text>
+            <text id="_800" data-name="800" transform="translate(0 19)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">800</tspan></text>
+          </g>
+          <g id="Line" transform="translate(62 16.5)">
+            <path id="Path" d="M0,.5,679.54,1" transform="translate(0 0.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy" data-name="Path Copy" d="M0,.5,679.54,1" transform="translate(0 73.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy_2" data-name="Path Copy 2" d="M0,.5,679.54,1" transform="translate(0 147.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy_3" data-name="Path Copy 3" d="M0,.5,679.54,1" transform="translate(0 221.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+          </g>
+          <g id="Line-2" data-name="Line" transform="translate(70 40)">
+            <rect id="Rectangle" width="5" height="83" rx="2.5" transform="translate(0 114)" fill="#213f56"/>
+            <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="5" height="135" rx="2.5" transform="translate(44 62)" fill="none" stroke="#43444d" stroke-miterlimit="10" stroke-width="2"/>
+            <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="5" height="47" rx="2.5" transform="translate(88 150)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_3" data-name="Rectangle Copy 3" width="5" height="65" rx="2.5" transform="translate(132 132)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_4" data-name="Rectangle Copy 4" width="5" height="111" rx="2.5" transform="translate(176 86)" fill="#ff6500"/>
+            <rect id="Rectangle_Copy_5" data-name="Rectangle Copy 5" width="5" height="168" rx="2.5" transform="translate(220 29)" fill="none" stroke="#43444d" stroke-miterlimit="10" stroke-width="2"/>
+            <rect id="Rectangle_Copy_6" data-name="Rectangle Copy 6" width="5" height="18" rx="2.5" transform="translate(264 179)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_7" data-name="Rectangle Copy 7" width="5" height="86" rx="2.5" transform="translate(308 111)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_8" data-name="Rectangle Copy 8" width="5" height="197" rx="2.5" transform="translate(353)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_9" data-name="Rectangle Copy 9" width="5" height="132" rx="2.5" transform="translate(397 65)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_10" data-name="Rectangle Copy 10" width="5" height="132" rx="2.5" transform="translate(441 65)" fill="#ff6500"/>
+            <rect id="Rectangle_Copy_11" data-name="Rectangle Copy 11" width="5" height="174" rx="2.5" transform="translate(485 23)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_12" data-name="Rectangle Copy 12" width="5" height="21" rx="2.5" transform="translate(529 176)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_13" data-name="Rectangle Copy 13" width="5" height="93" rx="2.5" transform="translate(573 104)" fill="#213f56"/>
+            <rect id="Rectangle_Copy_14" data-name="Rectangle Copy 14" width="5" height="161" rx="2.5" transform="translate(617 36)" fill="none" stroke="#43444d" stroke-miterlimit="10" stroke-width="2"/>
+            <rect id="Rectangle_Copy_15" data-name="Rectangle Copy 15" width="5" height="49" rx="2.5" transform="translate(661 148)" fill="#213f56"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_412" data-name="Group 412" transform="translate(26.04 -170.238)">
+      <g transform="matrix(1, 0, 0, 1, 683.96, 2253.24)" filter="url(#Rectangle_116)">
+        <rect id="Rectangle_116-2" data-name="Rectangle 116" width="415" height="470.5" rx="49" transform="translate(682.04 149.5)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Group_409" data-name="Group 409" transform="translate(-11092 261)">
+        <g id="Title3" transform="translate(12510 2202)">
+          <text id="Figures" transform="translate(0 19)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">Figures</tspan></text>
+        </g>
+        <g id="Figures-2" data-name="Figures" transform="translate(12510 2297)">
+          <g id="Followers">
+            <text id="_98.04_k" data-name="98.04 k" transform="translate(0 25)" fill="#43444d" font-size="25" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">98.04 k</tspan></text>
+            <text id="Followers-2" data-name="Followers" transform="translate(0 51)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">Followers</tspan></text>
+          </g>
+          <g id="Unsubscribed" transform="translate(169)">
+            <text id="_1.0_k" data-name="1.0 k" transform="translate(0 25)" fill="#43444d" font-size="25" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">1.0 k</tspan></text>
+            <text id="Unsubscribed-2" data-name="Unsubscribed" transform="translate(0 51)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">Unsubscribed</tspan></text>
+          </g>
+          <g id="Users" transform="translate(0 121)">
+            <text id="_21.0_k" data-name="21.0 k" transform="translate(0 25)" fill="#43444d" font-size="25" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">21.0 k</tspan></text>
+            <text id="Users-2" data-name="Users" transform="translate(0 51)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">Users</tspan></text>
+          </g>
+          <g id="Earned" transform="translate(169 121)">
+            <text id="_120.2_k_" data-name="120.2 k $" transform="translate(0 25)" fill="#43444d" font-size="25" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.025em"><tspan x="0" y="0">120.2 k $</tspan></text>
+            <text id="Earned-2" data-name="Earned" transform="translate(0 51)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">Earned</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="Group_19685" data-name="Group 19685" transform="translate(1145 2590)">
+        <path id="Rectangle_2995" data-name="Rectangle 2995" d="M6,0h4a6,6,0,0,1,6,6V32.455a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(273 182.545)" fill="#ff6500"/>
+        <path id="Rectangle_2996" data-name="Rectangle 2996" d="M6,0h4a6,6,0,0,1,6,6V27.136a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(299 187.864)" fill="#ff6500"/>
+        <path id="Rectangle_2997" data-name="Rectangle 2997" d="M6,0h4a6,6,0,0,1,6,6V22.7a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(348.143 192.295)" fill="#ff6500"/>
+        <path id="Rectangle_2998" data-name="Rectangle 2998" d="M6,0h4a6,6,0,0,1,6,6V36a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(386 179)" fill="#ff6500"/>
+        <path id="Rectangle_2999" data-name="Rectangle 2999" d="M6,0h4a6,6,0,0,1,6,6V25.364a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(423.286 189.636)" fill="#ff6500"/>
+        <path id="Rectangle_3000" data-name="Rectangle 3000" d="M6,0h4a6,6,0,0,1,6,6V28.909a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(460.857 186.091)" fill="#ff6500"/>
+        <path id="Rectangle_3001" data-name="Rectangle 3001" d="M6,0h4a6,6,0,0,1,6,6V23.591a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(510 191.409)" fill="#ff6500"/>
+        <path id="Rectangle_3002" data-name="Rectangle 3002" d="M6,0h4a6,6,0,0,1,6,6V32.455a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V6A6,6,0,0,1,6,0Z" transform="translate(536 182.545)" fill="#ff6500"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="439.666" height="236.197" viewBox="0 0 439.666 236.197">
+  <g id="Group_417" data-name="Group 417" transform="translate(-26.728 -35.803)">
+    <g id="LIne" transform="translate(27.228 36.303)">
+      <path id="Item" d="M.5,211.77V0" transform="translate(-0.5 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-2" data-name="Item" d="M.5,211.77V0" transform="translate(43.367 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-3" data-name="Item" d="M.5,211.77V0" transform="translate(87.233 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-4" data-name="Item" d="M.5,211.77V0" transform="translate(131.1 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-5" data-name="Item" d="M.5,211.77V0" transform="translate(174.966 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-6" data-name="Item" d="M.5,211.77V0" transform="translate(218.833 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-7" data-name="Item" d="M.5,211.77V0" transform="translate(262.699 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-8" data-name="Item" d="M.5,211.77V0" transform="translate(306.566 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-9" data-name="Item" d="M.5,211.77V0" transform="translate(350.433 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-10" data-name="Item" d="M.5,211.77V0" transform="translate(394.299 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+      <path id="Item-11" data-name="Item" d="M.5,211.77V0" transform="translate(438.166 0)" fill="none" stroke="#928fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6" opacity="0.2"/>
+    </g>
+    <g id="Timeframes" transform="translate(27.228 260.174)">
+      <g id="Jul">
+        <text id="Jul-2" data-name="Jul" transform="translate(-0.228 -0.174)" fill="#6c727f" font-size="12" font-family="Helvetica"><tspan x="-7.67" y="9">Jul</tspan></text>
+      </g>
+      <g id="Aug" transform="translate(87.733)">
+        <text id="Aug-2" data-name="Aug" transform="translate(0.04 -0.174)" fill="#6c727f" font-size="12" font-family="Helvetica"><tspan x="-10.676" y="9">Aug</tspan></text>
+      </g>
+      <g id="Sep" transform="translate(175.466)">
+        <text id="Sep-2" data-name="Sep" transform="translate(0.306 -0.174)" fill="#4a44c6" font-size="12" font-family="Helvetica"><tspan x="-10.676" y="9">Sep</tspan></text>
+      </g>
+      <g id="Oct" transform="translate(263.199)">
+        <text id="Oct-2" data-name="Oct" transform="translate(-0.427 -0.174)" fill="#6c727f" font-size="12" font-family="Helvetica"><tspan x="-9.334" y="9">Oct</tspan></text>
+      </g>
+      <g id="Nov" transform="translate(350.933)">
+        <text id="Nov-2" data-name="Nov" transform="translate(-0.16 -0.174)" fill="#6c727f" font-size="12" font-family="Helvetica"><tspan x="-10.67" y="9">Nov</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

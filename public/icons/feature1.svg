@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1186" height="926.5" viewBox="0 0 1186 926.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.541" y1="0.5" x2="0.534" y2="1.24" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Rectangle_12" x="0" y="0" width="1099" height="815.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Base" x="605" y="438.5" width="581" height="488" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="54" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_415" data-name="Group 415" transform="translate(-710 -458)">
+    <g transform="matrix(1, 0, 0, 1, 710, 458)" filter="url(#Rectangle_12)">
+      <rect id="Rectangle_12-2" data-name="Rectangle 12" width="949" height="665.5" rx="49" transform="translate(75 65)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Title" transform="translate(839 592.5)">
+      <text id="View_and_exit_statis" data-name="View and exit statis" transform="translate(0 19)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">View and exit statistics</tspan></text>
+    </g>
+    <g id="Interface_Dashboards_1" data-name="Interface/Dashboards/1" transform="translate(839 658.5)">
+      <g id="elements_dashboard_1" data-name="elements/dashboard/1" transform="translate(0 -2)">
+        <g id="Table">
+          <g id="Number" transform="translate(0 41)">
+            <text id="_10" data-name="10" transform="translate(0 391)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">10</tspan></text>
+            <text id="_20" data-name="20" transform="translate(0 317)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">20</tspan></text>
+            <text id="_30" data-name="30" transform="translate(0 243)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">30</tspan></text>
+            <text id="_40" data-name="40" transform="translate(0 169)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">40</tspan></text>
+            <text id="_50" data-name="50" transform="translate(0 95)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">50</tspan></text>
+            <text id="_60" data-name="60" transform="translate(0 21)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">60</tspan></text>
+          </g>
+          <g id="Months" transform="translate(67 462)">
+            <text id="June" transform="translate(0 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">June</tspan></text>
+            <text id="July" transform="translate(137 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">July</tspan></text>
+            <text id="August" transform="translate(186 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">August</tspan></text>
+            <text id="September" transform="translate(288 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">September</tspan></text>
+            <text id="October" transform="translate(416 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">October</tspan></text>
+            <text id="November" transform="translate(522 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">November</tspan></text>
+            <text id="December" transform="translate(593 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">December</tspan></text>
+            <text id="January" transform="translate(769 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">January</tspan></text>
+          </g>
+          <g id="Line" transform="translate(62 58.5)">
+            <path id="Path" d="M0,.5,832.2,1" transform="translate(0 -0.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy" data-name="Path Copy" d="M0,.5,832.2,1" transform="translate(0 72.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy_2" data-name="Path Copy 2" d="M0,.5,832.2,1" transform="translate(0 146.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy_3" data-name="Path Copy 3" d="M0,.5,832.2,1" transform="translate(0 220.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy_4" data-name="Path Copy 4" d="M0,.5,832.2,1" transform="translate(0 294.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+            <path id="Path_Copy_5" data-name="Path Copy 5" d="M0,.5,832.2,1" transform="translate(0 368.5)" fill="none" stroke="#5e606c" stroke-miterlimit="10" stroke-width="1" opacity="0.3"/>
+          </g>
+          <g id="Graphic" transform="translate(62 160)">
+            <path id="Path_2" data-name="Path 2" d="M0,195.077S42.585,73.208,170.539,97.182s139.566-130.859,204.8-90.4,48.638,198.957,162.3,132.942,109.384,0,155.186,0S826.44,46.986,826.44,46.986L827,267H0Z" transform="translate(6 0)" fill="#0922d5" opacity="0.1"/>
+            <path id="Path_2-2" data-name="Path 2" d="M0,195S42.562,73.179,170.448,97.144,309.94-33.664,375.14,6.777s48.612,198.878,162.209,132.89,109.326,0,155.1,0S826,46.968,826,46.968" transform="translate(6 0)" fill="none" stroke="#0e29ec" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            <path id="Path_2-3" data-name="Path 2" d="M0,62.857S43.81,14.744,97.043,90.3s80.243-63.059,158.945-75.07S371.361,220.581,444.307,151.359,553.991,11.156,645.354.505s81.109,150.854,186.64,132.59" transform="translate(0 15)" fill="none" stroke="#43444d" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="Tooltipe" transform="translate(395.883 110)">
+            <circle id="Oval" cx="8" cy="8" r="8" transform="translate(13 42.713)" fill="#eef0ff" stroke="#0e29ec" stroke-miterlimit="10" stroke-width="1"/>
+            <rect id="Rectangle" width="42" height="30" transform="translate(0.117 0)" fill="#edeef5"/>
+            <path id="Triangle" d="M4,0,8,8H0Z" transform="translate(25 37.713) rotate(180)" fill="#edeef5"/>
+            <text id="_46" data-name="46" transform="translate(9.117 23)" fill="#5e606c" font-size="20" font-family="Roboto-Regular, Roboto" letter-spacing="0.025em"><tspan x="0" y="0">46</tspan></text>
+          </g>
+          <g id="Filter" transform="translate(66)">
+            <g id="_1" data-name="1">
+              <circle id="Oval-2" data-name="Oval" cx="6" cy="6" r="6" transform="translate(0 5)" fill="#43444d"/>
+              <text id="Line_1" data-name="Line 1" transform="translate(25 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">Line 1</tspan></text>
+            </g>
+            <g id="_2" data-name="2" transform="translate(105)">
+              <circle id="Oval-3" data-name="Oval" cx="6" cy="6" r="6" transform="translate(0 5)" fill="#0922d5"/>
+              <text id="Line_2" data-name="Line 2" transform="translate(25 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">Line 2</tspan></text>
+            </g>
+          </g>
+          <text id="_46_Activity" data-name="46% Activity" transform="translate(695 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">46% Activity</tspan></text>
+          <text id="_298_Users" data-name="298 Users" transform="translate(597 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">298 Users</tspan></text>
+          <text id="_54_Exit" data-name="54% Exit" transform="translate(823 17)" fill="#5e606c" font-size="16" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.025em"><tspan x="0" y="0">54% Exit</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_19685" data-name="Group 19685" transform="translate(951 979.859)">
+      <g transform="matrix(1, 0, 0, 1, -241, -521.86)" filter="url(#Base)">
+        <rect id="Base-2" data-name="Base" width="257" height="164" rx="12" transform="translate(767 595.5)" fill="#fff"/>
+      </g>
+      <g id="Group_19109" data-name="Group 19109" transform="translate(608.869 125.4)">
+        <path id="Vector_54" data-name="Vector 54" d="M0,46.155V0" transform="matrix(1, 0, 0, 1, 5.245, 28.322)" fill="none" stroke="#eee" stroke-width="1.005"/>
+        <path id="Vector_55" data-name="Vector 55" d="M0,30.42V0" transform="translate(39.861 44.057)" fill="none" stroke="#eee" stroke-width="1.005"/>
+        <path id="Vector_56" data-name="Vector 56" d="M0,67.135V0" transform="matrix(1, 0, 0, 1, 72.38, 7.343)" fill="none" stroke="#eee" stroke-width="1.005"/>
+        <path id="Vector_57" data-name="Vector 57" d="M0,54.547V0" transform="matrix(1, 0, 0, 1, 106.996, 19.931)" fill="none" stroke="#eee" stroke-width="1.005"/>
+        <path id="Vector_58" data-name="Vector 58" d="M0,69.233V0" transform="matrix(1, 0, 0, 1, 140.563, 5.245)" fill="none" stroke="#eee" stroke-width="1.005"/>
+        <path id="Vector_59" data-name="Vector 59" d="M0,26.989l33.8,15.2L67.079,2.1l33.8,16.77L134.421,0" transform="translate(5.568 4.978)" fill="none" stroke="#089479" stroke-width="2.01"/>
+        <circle id="Ellipse_84" data-name="Ellipse 84" cx="5.765" cy="5.765" r="5.765" transform="translate(0 27.774)" fill="#089479"/>
+        <circle id="Ellipse_85" data-name="Ellipse 85" cx="2.62" cy="2.62" r="2.62" transform="translate(2.946 30.92)" fill="#fff"/>
+        <circle id="Ellipse_86" data-name="Ellipse 86" cx="5.765" cy="5.765" r="5.765" transform="translate(33.738 40.878)" fill="#089479"/>
+        <circle id="Ellipse_87" data-name="Ellipse 87" cx="2.62" cy="2.62" r="2.62" transform="translate(36.486 44.021)" fill="#fff"/>
+        <circle id="Ellipse_88" data-name="Ellipse 88" cx="5.765" cy="5.765" r="5.765" transform="translate(66.417 2.096)" fill="#089479"/>
+        <circle id="Ellipse_89" data-name="Ellipse 89" cx="2.62" cy="2.62" r="2.62" transform="translate(70.026 5.243)" fill="#fff"/>
+        <circle id="Ellipse_90" data-name="Ellipse 90" cx="5.765" cy="5.765" r="5.765" transform="translate(100.155 17.82)" fill="#089479"/>
+        <circle id="Ellipse_91" data-name="Ellipse 91" cx="2.62" cy="2.62" r="2.62" transform="translate(103.564 20.962)" fill="#fff"/>
+        <circle id="Ellipse_92" data-name="Ellipse 92" cx="5.765" cy="5.765" r="5.765" transform="translate(133.895)" fill="#089479"/>
+        <circle id="Ellipse_93" data-name="Ellipse 93" cx="2.62" cy="2.62" r="2.62" transform="translate(137.106 3.146)" fill="#fff"/>
+      </g>
+      <text id="_13_893" data-name="$13,893" transform="translate(547 126.641)" fill="#203b54" font-size="36" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="38">1</tspan></text>
+      <text id="Revenue" transform="translate(547 90.641)" fill="#364f65" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">Courses</tspan></text>
+    </g>
+  </g>
+</svg>

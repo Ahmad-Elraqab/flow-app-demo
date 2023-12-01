@@ -1,0 +1,417 @@
+
+$sizes : 190;
+
+@mixin font-60-list($val) {
+    @for $i from 1 through $sizes {
+        .f#{$i} {
+            font-size: calc(#{$i} * #{$val} * 1px);
+        }
+    }
+}
+
+.brs {
+    border-radius: calc(#{var(--data-br)}*1px);
+}
+
+.ph {
+    padding: 0 128px;
+}
+
+.buttonPadding {
+    padding: calc(#{var(--data-py)}*1px) calc(#{var(--data-px)} *1px);
+}
+
+.borderRadiusSize {
+    // padding: calc(#{var(--data-py)}*1px) calc(#{var(--data-px)} *1px);
+    border-radius: 12;
+}
+
+.navLogoMarg {
+    margin-right: calc(#{var(--data-mr)}*1px);
+}
+
+.navListMarg {
+    margin-right: calc(#{var(--data-mr)}*1px);
+}
+
+.imgSize {
+    height: calc(#{var(--data-h)}*1px);
+    width: calc(#{var(--data-w)}*1px);
+}
+
+.imgPos {
+    background-position: right -650px bottom -550px;
+    object-fit: cover;
+}
+
+.colorSign {
+    color: #FFFFFF !important;
+}
+
+.shapeSize {
+    position: absolute;
+    height: calc(#{var(--data-h)}*1px);
+    width: calc(#{var(--data-w)}*1px);
+    left: calc(#{var(--data-l)}*1px);
+    right: calc(#{var(--data-r)}*1px);
+    top: calc(#{var(--data-t)}*1px);
+    bottom: calc(#{var(--data-b)}*1px);
+}
+
+.marginSize {
+
+    margin-left: calc(#{var(--data-ml)}*1px);
+    margin-right: calc(#{var(--data-mr)}*1px);
+    margin-top: calc(#{var(--data-mt)}*1px);
+    margin-bottom: calc(#{var(--data-mb)}*1px);
+}
+
+.paddingSize {
+
+    padding-left: calc(#{var(--data-pl)}*1px);
+    padding-right: calc(#{var(--data-pr)}*1px);
+    padding-top: calc(#{var(--data-pt)}*1px);
+    padding-bottom: calc(#{var(--data-pb)}*1px);
+}
+
+.paddingSizeAll {
+    padding: calc(#{var(--data-p)}*1px);
+}
+
+@include font-60-list(1);
+
+
+@media only screen and (max-width: 1980px) {
+    @include font-60-list(1);
+
+    .ph {
+        padding: 0 128px;
+    }
+
+    .buttonPadding {
+        padding: calc(#{var(--data-py)} * 1px) calc(#{var(--data-px)} * 1px);
+
+    }
+
+    .navLogoMarg {
+        margin-right: calc(#{var(--data-mr)}*1px);
+    }
+
+    .navListMarg {
+        margin-right: calc(#{var(--data-mr)}*1px);
+    }
+
+}
+
+@media only screen and (max-width: 1536px) {
+ 
+    @include font-60-list(.8);
+
+    .ph {
+        padding: 0 100px;
+    }
+
+    .buttonPadding {
+        padding: calc(#{var(--data-py)} * .8px) calc(#{var(--data-px)} * .8px);
+    }
+
+    .navLogoMarg {
+        margin-right: calc(#{var(--data-mr)}*.3px);
+    }
+
+    .navListMarg {
+        margin-right: calc(#{var(--data-mr)}*.3px);
+    }
+
+    .imgSize {
+        height: calc(#{var(--data-h)}*.8px);
+        width: calc(#{var(--data-w)}*.8px);
+    }
+
+    .shapeSize {
+        height: calc(#{var(--data-h)}*.8px);
+        width: calc(#{var(--data-w)}*.8px);
+        left: calc(#{var(--data-l)}*.8px);
+        right: calc(#{var(--data-r)}*.8px);
+        top: calc(#{var(--data-t)}*.8px);
+        bottom: calc(#{var(--data-b)}*.8px);
+    }
+
+    .marginSize {
+
+        margin-left: calc(#{var(--data-ml)}*.8px);
+        margin-right: calc(#{var(--data-mr)}*.8px);
+        margin-top: calc(#{var(--data-mt)}*.8px);
+        margin-bottom: calc(#{var(--data-mb)}*.8px);
+    }
+
+    .paddingSize {
+
+        padding-left: calc(#{var(--data-pl)}*.8px);
+        padding-right: calc(#{var(--data-pr)}*.8px);
+        padding-top: calc(#{var(--data-pt)}*.8px);
+        padding-bottom: calc(#{var(--data-pb)}*.8px);
+    }
+
+    .brs {
+        border-radius: calc(#{var(--data-br)}*.8px);
+    }
+
+    .paddingSizeAll {
+        padding: calc(#{var(--data-p)}*.8px);
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+    @include font-60-list(.7);
+
+    .ph {
+        padding: 0 70px;
+    }
+
+    .buttonPadding {
+        padding: calc(#{var(--data-py)} * .7px) calc(#{var(--data-px)} * .7px);
+    }
+
+    .navLogoMarg {
+        margin-right: calc(#{var(--data-mr)}*.25px);
+    }
+
+    .navListMarg {
+        margin-right: calc(#{var(--data-mr)}*.25px);
+    }
+
+    .imgSize {
+        height: calc(#{var(--data-h)}*.7px);
+        width: calc(#{var(--data-w)}*.7px);
+    }
+
+    .shapeSize {
+        height: calc(#{var(--data-h)}*.7px);
+        width: calc(#{var(--data-w)}*.7px);
+        left: calc(#{var(--data-l)}*.7px);
+        right: calc(#{var(--data-r)}*.7px);
+        top: calc(#{var(--data-t)}*.7px);
+        bottom: calc(#{var(--data-b)}*.7px);
+    }
+
+    .imgPos {
+        background-position: right -650px bottom 0px;
+    }
+
+    .marginSize {
+
+        margin-left: calc(#{var(--data-ml)}*.7px);
+        margin-right: calc(#{var(--data-mr)}*.7px);
+        margin-top: calc(#{var(--data-mt)}*.7px);
+        margin-bottom: calc(#{var(--data-mb)}*.7px);
+    }
+
+    .paddingSize {
+
+        padding-left: calc(#{var(--data-pl)}*.7px);
+        padding-right: calc(#{var(--data-pr)}*.7px);
+        padding-top: calc(#{var(--data-pt)}*.7px);
+        padding-bottom: calc(#{var(--data-pb)}*.7px);
+    }
+
+    .brs {
+        border-radius: calc(#{var(--data-br)}*.7px);
+    }
+
+    .paddingSizeAll {
+        padding: calc(#{var(--data-p)}*.7px);
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    @include font-60-list(.6);
+
+    .ph {
+        padding: 0 50px;
+    }
+
+    .buttonPadding {
+        padding: calc(#{var(--data-py)} * .6px) calc(#{var(--data-px)} * .6px);
+    }
+
+    .navLogoMarg {
+        margin-right: calc(#{var(--data-mr)}* .2px);
+    }
+
+    .navListMarg {
+        margin-right: calc(#{var(--data-mr)}* .2px);
+    }
+
+    .imgSize {
+        height: calc(#{var(--data-h)}*.6px);
+        width: calc(#{var(--data-w)}*.6px);
+    }
+
+    .borderRadiusSize {
+        // padding: calc(#{var(--data-py)}*1px) calc(#{var(--data-px)} *1px);
+        border-radius: 5px;
+    }
+
+    .shapeSize {
+        height: calc(#{var(--data-h)}*.6px);
+        width: calc(#{var(--data-w)}*.6px);
+        left: calc(#{var(--data-l)}*.6px);
+        right: calc(#{var(--data-r)}*.6px);
+        top: calc(#{var(--data-t)}*.6px);
+        bottom: calc(#{var(--data-b)}*.6px);
+    }
+
+    .colorSign {
+        color: #000000 !important;
+    }
+
+    .marginSize {
+
+        margin-left: calc(#{var(--data-ml)}*.6px);
+        margin-right: calc(#{var(--data-mr)}*.6px);
+        margin-top: calc(#{var(--data-mt)}*.6px);
+        margin-bottom: calc(#{var(--data-mb)}*.6px);
+    }
+
+    .paddingSize {
+
+        padding-left: calc(#{var(--data-pl)}*.6px);
+        padding-right: calc(#{var(--data-pr)}*.6px);
+        padding-top: calc(#{var(--data-pt)}*.6px);
+        padding-bottom: calc(#{var(--data-pb)}*.6px);
+    }
+
+    .brs {
+        border-radius: calc(#{var(--data-br)}*.6px);
+    }
+
+    .paddingSizeAll {
+        padding: calc(#{var(--data-p)}*.6px);
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    @include font-60-list(.5);
+
+    .ph {
+        padding: 0 20px;
+    }
+
+    .buttonPadding {
+        padding: calc(#{var(--data-py)} * .5px) calc(#{var(--data-px)} * .5px);
+    }
+
+    .navLogoMarg {
+        margin-right: calc(#{var(--data-mr)}* .15px);
+    }
+
+    .navListMarg {
+        margin-right: calc(#{var(--data-mr)}* .15px);
+    }
+
+    .imgSize {
+        height: calc(#{var(--data-h)}*.5px);
+        width: calc(#{var(--data-w)}*.5px);
+    }
+
+    .shapeSize {
+        height: calc(#{var(--data-h)}*.5px);
+        width: calc(#{var(--data-w)}*.5px);
+        left: calc(#{var(--data-l)}*.5px);
+        right: calc(#{var(--data-r)}*.5px);
+        top: calc(#{var(--data-t)}*.5px);
+        bottom: calc(#{var(--data-b)}*.5px);
+    }
+
+    .marginSize {
+
+        margin-left: calc(#{var(--data-ml)}*.5px);
+        margin-right: calc(#{var(--data-mr)}*.5px);
+        margin-top: calc(#{var(--data-mt)}*.5px);
+        margin-bottom: calc(#{var(--data-mb)}*.5px);
+    }
+
+    .paddingSize {
+
+        padding-left: calc(#{var(--data-pl)}*.5px);
+        padding-right: calc(#{var(--data-pr)}*.5px);
+        padding-top: calc(#{var(--data-pt)}*.5px);
+        padding-bottom: calc(#{var(--data-pb)}*.5px);
+    }
+
+    .brs {
+        border-radius: calc(#{var(--data-br)}*.5px);
+    }
+
+    .paddingSizeAll {
+        padding: calc(#{var(--data-p)}*.5px);
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    @include font-60-list(.4);
+
+    .ph {
+        padding: 0 0;
+    }
+
+    .buttonPadding {
+        padding: calc(#{var(--data-py)} * .4px) calc(#{var(--data-px)} * .4px);
+
+    }
+
+    .navLogoMarg {
+        margin-right: calc(#{var(--data-mr)}*.1px);
+    }
+
+    .navListMarg {
+        margin-right: calc(#{var(--data-mr)}*.1px);
+    }
+
+    .imgSize {
+        height: calc(#{var(--data-h)}*.4px);
+        width: calc(#{var(--data-w)}*.4px);
+    }
+
+    .shapeSize {
+        height: calc(#{var(--data-h)}*.4px);
+        width: calc(#{var(--data-w)}*.4px);
+        left: calc(#{var(--data-l)}*.4px);
+        right: calc(#{var(--data-r)}*.4px);
+        top: calc(#{var(--data-t)}*.4px);
+        bottom: calc(#{var(--data-b)}*.4px);
+    }
+
+    .marginSize {
+
+        margin-left: calc(#{var(--data-ml)}*.3px);
+        margin-right: calc(#{var(--data-mr)}*.3px);
+        margin-top: calc(#{var(--data-mt)}*.3px);
+        margin-bottom: calc(#{var(--data-mb)}*.3px);
+    }
+
+    .paddingSize {
+
+        padding-left: calc(#{var(--data-pl)}*.4px);
+        padding-right: calc(#{var(--data-pr)}*.4px);
+        padding-top: calc(#{var(--data-pt)}*.4px);
+        padding-bottom: calc(#{var(--data-pb)}*.4px);
+    }
+
+    .brs {
+        border-radius: calc(#{var(--data-br)}*.4px);
+    }
+
+    .paddingSizeAll {
+        padding: calc(#{var(--data-p)}*.4px);
+    }
+
+}
