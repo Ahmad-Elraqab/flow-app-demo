@@ -13,17 +13,17 @@ const Footer: React.FunctionComponent = () => {
 
     <div className='bg-[#E2FAFC] z-40 w-full z-50 max-[1500px]:justify-start max-[1500px]:items-start'>
 
-      <div className={` w-full flex flex-wrap justify-center max-[1500px]:justify-start max-[1500px]:items-start ${styles.paddingSize}`} style={{ ...setPadding(135, "", 135, "") }}>
+      <div className={` w-full flex flex-wrap justify-center max-[1500px]:justify-start max-[1500px]:items-start ${styles.paddingSize}`} style={{ ...setPadding(135, 0, 135, 0) }}>
 
-        <div className={`flex flex-row gap-[100px] justify-end items-between max-[1500px]:border-r-[0px] border-[#15BCCB] border-r-[1px] ${styles.paddingSize}`} style={{ ...setPadding("", 84, 60, 84) }}>
+        <div className={`flex flex-row gap-[100px] justify-end items-between max-[1500px]:border-r-[0px] border-[#15BCCB] border-r-[1px] ${styles.paddingSize}`} style={{ ...setPadding(119, 84, 119, 84) }}>
           <div className=''>
-            <p className={`font-bold ${styles.f27} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 70) }}>contact</p>
-            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 20.7) }}>Saudi Arabai Jeddah</p>
-            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 20.7) }}>King Abdjalazez</p>
-            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 20.7) }}>123 street alhamdea</p>
-            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 20.7) }}>+966 598828477</p>
+            <p className={`font-bold ${styles.f27} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 70) }}>contact</p>
+            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 20.7) }}>Saudi Arabai Jeddah</p>
+            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 20.7) }}>King Abdjalazez</p>
+            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 20.7) }}>123 street alhamdea</p>
+            <p className={`font-regular ${styles.f18} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 20.7) }}>+966 598828477</p>
           </div>
-          <div className={`flex flex-col gap-y-5 ${styles.marginSize}`} style={{ ...setMargin("", 80, "", "") }}>
+          <div className={`flex flex-col gap-y-5 ${styles.marginSize}`} style={{ ...setMargin(0, 80, 0, 0) }}>
             <div className={`${styles.imgSize} flex flex-row justify-center items-center`} style={{ ...setBox(46, 46), backgroundColor: "#15BCCB", borderRadius: "30px" }}><img className={styles.imgSize} src={"../../icons/logo-fb.svg"} alt='' style={{ ...setBox(13, 18) }} /></div>
             <div className={`${styles.imgSize} flex flex-row justify-center items-center`} style={{ ...setBox(46, 46), backgroundColor: "#15BCCB", borderRadius: "30px" }}><img className={styles.imgSize} src={"../../icons/logo-twitter.svg"} alt='' style={{ ...setBox(46, 18) }} /></div>
             <div className={`${styles.imgSize} flex flex-row justify-center items-center`} style={{ ...setBox(46, 46), backgroundColor: "#15BCCB", borderRadius: "30px" }}><img className={styles.imgSize} src={"../../icons/logo-instagram.svg"} alt='' style={{ ...setBox(46, 18) }} /></div>
@@ -31,8 +31,8 @@ const Footer: React.FunctionComponent = () => {
           </div>
         </div>
 
-        <div className={`flex flex-col justify-start items-stretch border-[#15BCCB] max-[1500px]:border-r-[0px] border-r-[1px] ${styles.paddingSize}`} style={{ ...setPadding("", 84, 119, 84) }}>
-          <p className={`font-bold ${styles.f27} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 45) }}>services</p>
+        <div className={`flex flex-col justify-start items-stretch border-[#15BCCB] max-[1500px]:border-r-[0px] border-r-[1px] ${styles.paddingSize}`} style={{ ...setPadding(119, 84, 119, 84) }}>
+          <p className={`font-bold ${styles.f27} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 45) }}>services</p>
           <div className='grid grid-rows-5 grid-flow-col gap-[25px]'>
             <p className={`font-regular ${styles.f18}  text-[#777E90]`}>Cloud</p>
             <p className={`font-regular ${styles.f18}  text-[#777E90]`}>Support</p>
@@ -46,7 +46,7 @@ const Footer: React.FunctionComponent = () => {
           </div>
         </div>
         <div className={`flex flex-col justify-start items-stretch ${styles.paddingSize}`} style={{ ...setPadding(119, 84, 119, 84) }}>
-          <p className={`font-bold ${styles.f27} ${styles.marginSize}`} style={{ ...setMargin("", "", "", 45) }} >Solutions</p>
+          <p className={`font-bold ${styles.f27} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 45) }} >Solutions</p>
           <div className='grid grid-rows-5 grid-flow-col gap-[25px]'>
             <p className={`font-regular ${styles.f18}  text-[#777E90]`}>Manufacturing</p>
             <p className={`font-regular ${styles.f18}  text-[#777E90]`}>Services</p>

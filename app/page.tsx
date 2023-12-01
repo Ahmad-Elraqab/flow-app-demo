@@ -207,7 +207,7 @@ export default function Home() {
 
             <div className={`flex flex-wrap justify-between max-[1820px]:justify-center items-center z-40 w-full h-full text-center relative ${styles.paddingSize}`} style={{ ...setPadding(128, 0, 128, 0) }}>
 
-              <img className={`${styles.shapeSize}`} style={{ ...setPosition(0, 50, 150, 0), ...setBox(79, 89) }} src={"icons/grey_cube.svg"} alt='' />
+              <img className={`${styles.shapeSize}`} style={{ ...setPosition("", 50, 150, 0), ...setBox(79, 89) }} src={"icons/grey_cube.svg"} alt='' />
 
               <div className={`${styles.paddingSize} max-[1820px]:justify-center max-[1820px]:items-center`} style={{ ...setPadding(0, 250, 0, 0) }}>
                 <p className={`${styles.f60} font-semibold w-[431px] text-start max-[1820px]:text-center leading-[70px] mb-[20px]`}>Almost everything you need</p>
@@ -285,7 +285,7 @@ export default function Home() {
           </div>
 
           {/* part 4 */}
-          <div className='flex flex-col items-center justify-center z-40 w-full overflow-hidden text-center relative'>
+          <div className='flex flex-col items-center justify-center z-40 h-[1500px] max-[390px]:h-[900px] w-full overflow-hidden text-center relative'>
 
             <div
               className="w-full mx-auto z-1 blur-xl absolute left-0 right-0"

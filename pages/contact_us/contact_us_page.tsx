@@ -26,13 +26,13 @@ export default function ContactUsPage() {
     const setPadding: Function = (l: any, t: any, r: any, b: any) => { return { ['--data-pl' as any]: l, ['--data-pt' as any]: t, ['--data-pr' as any]: r, ['--data-pb' as any]: b, } }
     const setBox: Function = (h: any, w: any) => { return { ['--data-h' as any]: h, ['--data-w' as any]: w, } }
 
-    return <div className="pt-9 mx-auto z-10 flex flex-col justify-between items-center w-full h-[2300px]" style={{ overflow: 'hidden' }}>
+    return <div className="pt-9 mx-auto z-10 flex flex-col justify-between items-center h-[2300px]" style={{ overflow: 'hidden', maxWidth: "1980px" }}>
 
         <div
             className="z-1 mx-auto absolute w-full left-0 right-0 h-full"
             style={{
                 zIndex: 1,
-                height: "2300px",
+                // height: "2300px",
                 backgroundImage: `url("../../icons/bg_light_outline.svg")`,
                 backgroundPosition: "right -350px top -200px",
                 backgroundRepeat: "no-repeat"
@@ -43,7 +43,7 @@ export default function ContactUsPage() {
             className="z-1 mx-auto absolute w-full blur-2xl left-0 right-0 h-full"
             style={{
                 zIndex: 1,
-                height: "2300px",
+                // height: "2300px",
                 backgroundImage: `url("../../icons/bg_light.svg")`,
                 backgroundPosition: "right -550px top -500px",
                 backgroundRepeat: "no-repeat"

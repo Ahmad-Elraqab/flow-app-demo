@@ -96,21 +96,21 @@ export default function FeaturePage() {
 
                     <div className="w-full z-20 h-[1px] bg-[#707070] mt-[38px] mb-[57px]">.</div>
 
-                    <p className={`${styles.f25} font-regular ${styles.marginSize}`} style={{ ...setMargin("", "", "", 30) }}>Home / Features</p>
+                    <p className={`${styles.f25} font-regular ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 30) }}>Home / Features</p>
 
-                    <p className={`${styles.f56} font-extrabold`} style={{ ...setMargin("", "", "", 18) }}>Welcome to the future of ERP</p>
+                    <p className={`${styles.f56} font-extrabold`} style={{ ...setMargin(0, 0, 0, 18) }}>Welcome to the future of ERP</p>
 
-                    <p className={`${styles.f25} font-regular text-[#3B3B3B] mb-[100px] ${styles.imgSize} text-center`} style={{ ...setMargin("", "", "", 50), ...setBox("", 858) }}>A complete redesign makeover changes the way you see everything. Also packed with 100+ new features and two new modules.</p>
+                    <p className={`${styles.f25} font-regular text-[#3B3B3B] mb-[100px] ${styles.imgSize} text-center`} style={{ ...setMargin(0, 0, 0, 50), ...setBox("", 858) }}>A complete redesign makeover changes the way you see everything. Also packed with 100+ new features and two new modules.</p>
 
                     {/* <Image src={'../../icons/cube-12.svg'} className="absolute right-[250px] z-[5] bottom-[500px]" alt="" height={193} width={217} />
             <Image src={'../../icons/cube.svg'} className="absolute left-[250px] z-[5] bottom-[700px]" alt="" height={90} width={100} /> */}
 
 
 
-                    <div className={`w-full ${styles.paddingSize} ${styles.marginSize} max-[1750px]:justify-center max-[1750px]:text-center flex flex-wrap justify-between items-center relative overflow-visible`} style={{ ...setPadding(138, "", 138, ""), ...setMargin(0, 0, 0, 78) }}>
+                    <div className={`w-full ${styles.paddingSize} ${styles.marginSize} max-[1750px]:justify-center max-[1750px]:text-center flex flex-wrap justify-between items-center relative overflow-visible`} style={{ ...setPadding(138, 0, 138, 0), ...setMargin(0, 0, 0, 78) }}>
 
                         <div className="relative">
-                            <p className={`${styles.f37} font-semibold ${styles.marginSize}`} style={{ ...setMargin("", "", "", 70) }}>Form and function</p>
+                            <p className={`${styles.f37} font-semibold ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 70) }}>Form and function</p>
                             <p className={`${styles.f189} font-regular ${styles.shapeSize} text-[#3b3b3b10]`} style={{ ...setPosition("", -100, "", "") }}>01</p>
                             <p className={`${styles.f20} font-medium ${styles.imgSize}`} style={{ ...setBox("", 515) }}>A new design, a new way to use ERPNext. Hundreds of careful UI adjustments to ensure you reach everything faster. See clearloutside and inside forms.</p>
                         </div>
@@ -126,10 +126,10 @@ export default function FeaturePage() {
 
                     </div>
 
-                    <div className={`${styles.paddingSize} ${styles.marginSize} w-full flex max-[1750px]:justify-center max-[1750px]:text-center flex-wrap justify-between items-center relative overflow-visible`} style={{ ...setPadding(138, "", 138, ""), ...setMargin("", "", "", 78) }}>
+                    <div className={`${styles.paddingSize} ${styles.marginSize} w-full flex max-[1750px]:justify-center max-[1750px]:text-center flex-wrap justify-between items-center relative overflow-visible`} style={{ ...setPadding(138, 0, 138, 0), ...setMargin(0, 0, 0, 78) }}>
 
                         <div className="relative">
-                            <p className={`${styles.f37} font-semibold ${styles.marginSize}`} style={{ ...setMargin("", "", "", 70) }}>With dark mode</p>
+                            <p className={`${styles.f37} font-semibold ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 70) }}>With dark mode</p>
                             <p className={`${styles.f189} font-regular ${styles.shapeSize} text-[#3b3b3b10]`} style={{ ...setPosition("", -130, "", "") }}>02</p>
                             <p className={`${styles.f20} font-medium ${styles.imgSize}`} style={{ ...setBox("", 515) }}>For those late nights when the reports are due or you just prefer a dark theme. cmd + shift + g.</p>
                         </div>
@@ -143,10 +143,10 @@ export default function FeaturePage() {
 
                     </div>
 
-                    <div className={`${styles.paddingSize} w-full flex flex-wrap justify-between max-[1750px]:justify-center max-[1750px]:text-center items-center`} style={{ ...setPadding(138, "", 138, "") }}>
+                    <div className={`${styles.paddingSize} w-full flex flex-wrap justify-between max-[1750px]:justify-center max-[1750px]:text-center items-center`} style={{ ...setPadding(138, 0, 138, 0) }}>
 
                         <div className="relative">
-                            <p className={`${styles.f37} font-semibold ${styles.marginSize}`} style={{ ...setMargin("", "", "", 70) }}>Accounting refreshed</p>
+                            <p className={`${styles.f37} font-semibold ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 70) }}>Accounting refreshed</p>
                             <p className={`${styles.f189} font-regular ${styles.shapeSize} text-[#3b3b3b10]`} style={{ ...setPosition("", -130, "", "") }}>03</p>
                             <p className={`${styles.f20} font-medium ${styles.imgSize}`} style={{ ...setBox("", 515) }}>We accounted for the things that matter.</p>
                         </div>
@@ -158,7 +158,7 @@ export default function FeaturePage() {
 
                     </div>
 
-                    <div className={`${styles.paddingSize} ${styles.marginSize} w-full overflow-visible relative max-[1750px]:justify-center max-[1750px]:text-center`} style={{ ...setPadding(138, "", "", ""), ...setMargin("", "", "", 78) }}>
+                    <div className={`${styles.paddingSize} ${styles.marginSize} w-full overflow-visible relative max-[1750px]:justify-center max-[1750px]:text-center`} style={{ ...setPadding(138, 0, 0, 0), ...setMargin(0, 0, 0, 78) }}>
                         <div
                             className={`${styles.shapeSize} z-7 w-full mx-auto blur-2xl h-full`}
                             style={{
@@ -174,7 +174,7 @@ export default function FeaturePage() {
 
                         <img alt="" src={"../../icons/big_blue_cube.svg"} className={`${styles.shapeSize}  z-[15]`} style={{ ...setPosition("", 80, 100, ""), ...setBox(175, 197) }} />
 
-                        <p className={`${styles.f42} font-bold ${styles.marginSize} text-start`} style={{ ...setMargin("", "", "", 70) }}>More Features</p>
+                        <p className={`${styles.f42} font-bold ${styles.marginSize} text-start`} style={{ ...setMargin(0, 0, 0, 70) }}>More Features</p>
 
                         <div className="w-full flex flex-row">
 
@@ -185,7 +185,7 @@ export default function FeaturePage() {
                                     info.map((e) => (
 
                                         <div className={`${styles.imgSize}`} style={{ ...setBox("", 515) }}>
-                                            <p className={`${styles.f37} font-semibold ${styles.marginSize} text-start`} style={{ ...setMargin("", "", "", 30) }}>{e.title}</p>
+                                            <p className={`${styles.f37} font-semibold ${styles.marginSize} text-start`} style={{ ...setMargin(0, 0, 0, 30) }}>{e.title}</p>
                                             <p className={`${styles.f20} font-medium text-start`}>{e.desc}</p>
                                         </div>
 
@@ -201,7 +201,7 @@ export default function FeaturePage() {
 
                     </div>
 
-                    <div className={`${styles.paddingSize} ${styles.marginSize} w-full relative`} style={{ ...setPadding(138, "", 138, ""), ...setMargin("", "", "", 146) }}>
+                    <div className={`${styles.paddingSize} ${styles.marginSize} w-full relative`} style={{ ...setPadding(138, 0, 138, 0), ...setMargin(0, 0, 0, 146) }}>
 
                         <div className={`${styles.imgSize} ${styles.paddingSize} w-full rounded-[25px] bg-[#F8F8FB] flex flex-row justify-between items-center`} style={{ ...setPadding(87, 62, 110, 52), ...setBox(219, "") }}>
                             <div>

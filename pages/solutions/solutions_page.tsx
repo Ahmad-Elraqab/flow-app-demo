@@ -7,7 +7,7 @@ import styles from '../../styles/style.module.scss'
 export default function SolutionsPage() {
 
 
-    return <div className="pt-9 mx-auto z-10 flex flex-col items-center w-full h-[1500px]">
+    return <div className="pt-9 mx-auto z-10 flex flex-col items-center h-full relative" style={{ maxWidth: "1980px", overflow: "hidden" }}>
 
         <div
             className="z-5 mx-auto blur-xl absolute left-0 right-0"
