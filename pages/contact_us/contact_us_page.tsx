@@ -105,7 +105,7 @@ export default function ContactUsPage() {
                 {
                     placeholders.map((z) => (
 
-                        <Dropdown className={`${styles.imgSize} ${styles.marginSize}`} style={{ ...setBox("", 290), ...setMargin(90, "", 90, "") }} placeholder="ahmad">
+                        <Dropdown className={`${styles.imgSize} ${styles.marginSize}`} style={{ ...setBox("", 290), ...setMargin(0, 0, 0, 12) }} placeholder="ahmad">
                             <DropdownTrigger className="" >
                                 <div className={`${styles.paddingSize} ${styles.imgSize} ${styles.marginSize} flex flex-row justify-between items-center ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox("", 676), ...setMargin("", "", "", 12) }}>
                                     <p>{title == "" ? z : title}</p>
