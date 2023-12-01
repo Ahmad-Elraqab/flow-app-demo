@@ -23,11 +23,12 @@ export default function Home() {
 
   return (
     <div>
-      <div className="pt-9 mx-auto z-10 flex flex-col items-center overflow-hidden" style={{ maxWidth: "1980px" }}>
+      <div className="pt-9 mx-auto z-10 flex flex-col items-center overflow-hidden relative" style={{ maxWidth: "1980px" }}>
         <div
           className={`z-0 mx-auto blur-2xl absolute left-0 right-0 w-full ${styles.imgPos}`}
           style={{
             height: "1121px",
+            maxWidth:"1980px",
             backgroundImage: `url("icons/bg_logo.svg")`,
           }}>
 

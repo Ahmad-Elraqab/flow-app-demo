@@ -67,32 +67,32 @@ export default function ContactUsPage() {
             <img src={'../../icons/cube.svg'} className={`${styles.shapeSize} z-[5]`} alt="" style={{ ...setPosition(250, "", "", 700), ...setBox(90, 100) }} />
 
             <div className={`${styles.paddingSize} ${styles.brs} bg-[white] flex flex-col justify-center items-center z-30 overflow-visible`} style={{ ...setPadding(90, 90, 90, 90), ['--data-br' as any]: 75 }}>
-                <input type="text" placeholder="Name" className={`${styles.paddingSize} ${styles.marginSize} ${styles.imgSize} focus:outline-none focus:border-[#15BCCB] focus:border-[2px] ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[#B2B2B2] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox("", 676), ...setMargin(90, "", 90, 12) }} />
-                <input type="text" placeholder="Email" className={`${styles.paddingSize} ${styles.marginSize} ${styles.imgSize} focus:outline-none focus:border-[#15BCCB] focus:border-[2px]  ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[#B2B2B2] font-regular `} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox("", 676), ...setMargin(90, "", 90, 12) }} />
-                <div className={`w-full flex ${styles.marginSize} ${styles.paddingSize}`} style={{ ...setMargin("", "", "", 12), ...setPadding(90, 0, 90, 0) }}>
+                <input type="text" placeholder="Name" className={`${styles.paddingSize} ${styles.marginSize} ${styles.imgSize} focus:outline-none focus:border-[#15BCCB] focus:border-[2px] ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[#B2B2B2] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox(60, 676), ...setMargin(90, 0, 90, 12) }} />
+                <input type="text" placeholder="Email" className={`${styles.paddingSize} ${styles.marginSize} ${styles.imgSize} focus:outline-none focus:border-[#15BCCB] focus:border-[2px]  ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[#B2B2B2] font-regular `} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox(60, 676), ...setMargin(90, 0, 90, 12) }} />
+                <div className={`flex ${styles.marginSize} ${styles.imgSize}`} style={{ ...setMargin(90, 0, 90, 12), ...setBox(60, 676) }}>
                     <Dropdown className="" placeholder="ahmad">
-                        <DropdownTrigger className={`${styles.imgSize} rounded-l-[30px]`} style={{ ...setBox("", 200) }}>
-                            <div className={` ${styles.paddingSize} ${styles.imgSize} flex flex-row justify-center gap-[12.3px] items-center border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ...setBox("", 676), ...setPadding("", 12, "", 12) }}>
+                        <DropdownTrigger className={`rounded-l-[30px]`}>
+                            <div className={` ${styles.paddingSize} flex flex-row justify-center gap-[12.3px] items-center border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ...setPadding(20, 12, 20, 12) }}>
 
                                 <img className={styles.imgSize} src={'../../icons/arrow_down.svg'} alt="" style={{ ...setBox(7.57, 12.25) }} />
                                 <p className={styles.f24}>{data[country].flag}</p>
                                 <p className={`${styles.f18} text-[#000000] font-regular`}>({data[country].dial_code})</p>
                             </div>
                         </DropdownTrigger>
-                        <DropdownMenu variant="faded" aria-label="Dropdown menu with icons" className={`${styles.imgSize} overflow-scroll`} style={{ ...setBox(310, "") }}>
+                        <DropdownMenu variant="faded" aria-label="Dropdown menu with icons" className={`${styles.imgSize} ${styles.paddingSize} rounded-[5px] border-[1px] border-[#B2B2B2] bg-white overflow-scroll`} style={{ ...setPadding(12, 12, 12, 12), ...setBox(310, 400) }}>
                             {
                                 data.map((e) => (
 
                                     <DropdownItem
                                         className={`${styles.imgSize}`}
-                                        style={{ ...setBox("", 147) }}
+                                        style={{ ...setBox(300, 147) }}
                                         key={""}
                                         shortcut=""
                                         onClick={() => {
                                             // setTitle(e)
                                             setCountry(data.indexOf(e))
                                         }}
-                                        startContent={<div className="flex flex-row gap-[12.3px]"><p className={`${styles.f24}`}>{e.flag}</p> <p className={`${styles.f18} text-[#000000] font-regular`}>({e.dial_code})</p></div>}
+                                        startContent={<div className="flex flex-row gap-[12.3px] bg-white"><p className={`${styles.f24}`}>{e.flag}</p> <p className={`${styles.f18} text-[#000000] font-regular`}>({e.dial_code})</p></div>}
                                     >
                                     </DropdownItem>
                                 ))
@@ -105,15 +105,15 @@ export default function ContactUsPage() {
                 {
                     placeholders.map((z) => (
 
-                        <Dropdown className={`${styles.imgSize} ${styles.marginSize}`} style={{ ...setBox("", 290), ...setMargin(0, 0, 0, 12) }} placeholder="ahmad">
+                        <Dropdown key={z} className={`${styles.imgSize} ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 12), ...setBox(49, 290), }} placeholder="ahmad">
                             <DropdownTrigger className="" >
-                                <div className={`${styles.paddingSize} ${styles.imgSize} ${styles.marginSize} flex flex-row justify-between items-center ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox("", 676), ...setMargin("", "", "", 12) }}>
+                                <div className={`${styles.paddingSize} ${styles.imgSize} ${styles.marginSize} flex flex-row justify-between items-center ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setBox(60, 676), ...setMargin(0, 0, 0, 12) }}>
                                     <p>{title == "" ? z : title}</p>
                                     {/* <p>icon</p> */}
                                     <img className={styles.imgSize} src={'../../icons/arrow_down.svg'} style={{ ...setBox(7.57, 12.25) }} alt="" />
                                 </div>
                             </DropdownTrigger>
-                            <DropdownMenu variant="faded" aria-label="Dropdown menu with icons" className={`${styles.paddingSize} ${styles.imgSize}`} style={{ ...setBox("", 290), ...setPadding(39, 24, 39, 24) }}>
+                            <DropdownMenu variant="faded" aria-label="Dropdown menu with icons" className={`bg-white ${styles.brs} border-[1px] border-[#B2B2B2] overflow-scroll ${styles.paddingSize} ${styles.imgSize}`} style={{ ['--data-br' as any]: 30, ...setBox(300, 290), ...setPadding(39, 24, 39, 24) }}>
                                 {jobTitles.map((e) =>
                                     <DropdownItem
                                         key={e}
@@ -121,7 +121,7 @@ export default function ContactUsPage() {
                                         onClick={() => {
                                             setTitle(e)
                                         }}
-                                        startContent={<p className={`${styles.f18} text-[#000000] font-regular`}>{e}</p>}
+                                        startContent={<p className={`${styles.f18} ${styles.imgSize} mb-[5px] text-[#000000] font-regular`} style={{ ...setBox(40, 290) }}>{e}</p>}
                                     >
                                     </DropdownItem>
                                 )
@@ -133,7 +133,7 @@ export default function ContactUsPage() {
                 }
 
 
-                < textarea placeholder="Message" rows={5} className={`${styles.imgSize} ${styles.marginSize} ${styles.paddingSize} focus:outline-none focus:border-[#15BCCB] focus:border-[2px] ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setMargin(90, "", 90, 12), ...setBox("", 676) }}></textarea>
+                < textarea placeholder="Message" rows={5} className={`${styles.imgSize} ${styles.marginSize} ${styles.paddingSize} focus:outline-none focus:border-[#15BCCB] focus:border-[2px] ${styles.brs} border-[#B2B2B2] border-[1px] ${styles.f18} text-[black] font-regular`} style={{ ['--data-br' as any]: 30, ...setPadding(40, 20, 40, 20), ...setMargin(90, 0, 90, 12), ...setBox(165, 676) }}></textarea>
                 <div className={`${styles.brs} overflow-hidden`} style={{ ['--data-br' as any]: 30 }}>
                     <FilledButton borderRadius="0px" fillColor="#15BCCB" fontSize={styles.f18} textColor="white" fontWeight="700px" py={19} title="send" px={314} />
                 </div>
@@ -141,20 +141,20 @@ export default function ContactUsPage() {
 
                 </div>
 
-                <div className={`${styles.marginSize} flex flex-row justify-between items-center gap-[115px]`} style={{ ...setMargin("", 42, "", "") }}>
+                <div className={`${styles.marginSize} flex flex-row justify-between items-center gap-[115px]`} style={{ ...setMargin(0, 42, 0, 0) }}>
                     <div className="flex items-end">
-                        <div className={`${styles.imgSize} ${styles.marginSize} bg-[#4A44C6] ${styles.brs} flex justify-center items-center`} style={{ ['--data-br' as any]: 15, ...setBox(80, 80), ...setMargin("", "", 23, "") }}>
+                        <div className={`${styles.imgSize} ${styles.marginSize} bg-[#4A44C6] ${styles.brs} flex justify-center items-center`} style={{ ['--data-br' as any]: 15, ...setBox(80, 80), ...setMargin(0, 0, 23, 0) }}>
                             <img alt="" className={styles.imgSize} src={"/icons/email.png"} style={{ ...setBox(22.5, 28.5) }} />
                         </div>
 
-                        <p className={`${styles.f18} font-regular ${styles.marginSize}`} style={{ ...setMargin("", "", "", 18) }}>FlowERP@exmample.com</p>
+                        <p className={`${styles.f18} font-regular ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 18) }}>FlowERP@exmample.com</p>
                     </div>
                     <div className="flex items-end">
-                        <div className={`${styles.imgSize} ${styles.marginSize} bg-[#FF6500] ${styles.brs} flex justify-center items-center`} style={{ ['--data-br' as any]: 15, ...setBox(80, 80), ...setMargin("", "", 23, "") }}>
+                        <div className={`${styles.imgSize} ${styles.marginSize} bg-[#FF6500] ${styles.brs} flex justify-center items-center`} style={{ ['--data-br' as any]: 15, ...setBox(80, 80), ...setMargin(0, 0, 23, 0) }}>
                             <img alt="" className={styles.imgSize} src={"/icons/phone-call.png"} style={{ ...setBox(22.5, 28.5) }} />
                         </div>
 
-                        <p className={`${styles.f18} font-regular ${styles.marginSize}`} style={{ ...setMargin("", "", "", 18) }}>+134 2111 2452</p>
+                        <p className={`${styles.f18} font-regular ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 18) }}>+134 2111 2452</p>
                     </div>
                 </div>
             </div>
