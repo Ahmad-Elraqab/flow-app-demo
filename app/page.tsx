@@ -4,7 +4,7 @@ import OutlinedButton from '@/components/outlined_button'
 import ServiceCard from '@/components/service_card'
 import HostCard from '@/components/host_card'
 import Logos from '@/components/logos'
-import '../app/dropdown.css'
+import dropdownStyle from '../styles/dropdown.module.css'
 // import '../styles/fontsStyle';
 // import Classes from '../styles/fontsStyle'
 import styles from '../styles/style.module.scss';
