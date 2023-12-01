@@ -20,9 +20,9 @@ const ServiceCard: React.FunctionComponent<ServiceCardProps> = ({ title, subTitl
 
         <div className={`${style.imgSize} ${style.paddingSize} items-start rounded-[30px] bg-[white]`} style={{ ...setBox("", 276), ...setPadding(35, 46, 46, 33), boxShadow: "0px 10px 50px #00000006", }}>
 
-            <img className={`${style.imgSize} ${style.marginSize}`} src={`../../icons/${icon}.svg`} style={{ ...setMargin("", "", "", 17), ...setBox(iconHeight, iconWidth) }} alt='' />
-            <p className={`${style.f18} font-semibold text-start ${style.marginSize}`} style={{ ...setMargin("", "", "", 18) }}>{title}</p>
-            <p className={`${style.f18} font-medium text-start text-[#676767] ${style.marginSize}`} style={{ ...setMargin("", "", "", 25) }}>{subTitle}</p>
+            <img className={`${style.imgSize} ${style.marginSize}`} src={`../../icons/${icon}.svg`} style={{ ...setMargin(0, 0, 0, 17), ...setBox(iconHeight, iconWidth) }} alt='' />
+            <p className={`${style.f18} font-semibold text-start ${style.marginSize}`} style={{ ...setMargin(0, 0, 0, 18) }}>{title}</p>
+            <p className={`${style.f18} font-medium text-start text-[#676767] ${style.marginSize}`} style={{ ...setMargin(0, 0, 0, 25) }}>{subTitle}</p>
             <img className={`${style.imgSize}`} src={"../../icons/share.svg"} alt='' style={{ ...setBox(20, 20) }} />
 
         </div>

@@ -21,9 +21,9 @@ const HostCard: React.FunctionComponent<HostCardProps> = ({ title, subTitle, ico
 
         <div className={`${styles.paddingSize} ${styles.imgSize} flex flex-col items-center justify-center rounded-[30px] bg-[white]`} style={{ ...setPadding(32, 26, 32, 33), ...setBox("", 357), boxShadow: "0px 10px 50px #00000006", }}>
 
-            <img className={`${styles.imgSize} ${styles.marginSize}`} src={`../../icons/${icon}.svg`} alt='' style={{ ...setMargin("", "", "", 17), ...setBox(iconHeight, iconWidth) }} />
-            < p className={`${styles.f18} ${styles.marginSize} font-semibold text-center`} style={{ ...setMargin("", "", "", 18) }}>{title}</p>
-            <p className={`${styles.f16} ${styles.marginSize} font-medium text-center text-[#676767]`} style={{ ...setMargin("", "", "", 25) }}>{subTitle}</p>
+            <img className={`${styles.imgSize} ${styles.marginSize}`} src={`../../icons/${icon}.svg`} alt='' style={{ ...setMargin(0, 0, 0, 17), ...setBox(iconHeight, iconWidth) }} />
+            < p className={`${styles.f18} ${styles.marginSize} font-semibold text-center`} style={{ ...setMargin(0, 0, 0, 18) }}>{title}</p>
+            <p className={`${styles.f16} ${styles.marginSize} font-medium text-center text-[#676767]`} style={{ ...setMargin(0, 0, 0, 25) }}>{subTitle}</p>
 
         </div>
 

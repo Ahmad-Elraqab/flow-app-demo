@@ -52,8 +52,8 @@ $sizes : 190;
     position: absolute;
     height: calc(#{var(--data-h)}*1px);
     width: calc(#{var(--data-w)}*1px);
-    left: calc(#{var(--data-l)}*1px);
     right: calc(#{var(--data-r)}*1px);
+    left: calc(#{var(--data-l)}*1px);
     top: calc(#{var(--data-t)}*1px);
     bottom: calc(#{var(--data-b)}*1px);
 }

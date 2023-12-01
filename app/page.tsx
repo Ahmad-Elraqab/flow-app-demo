@@ -4,7 +4,7 @@ import OutlinedButton from '@/components/outlined_button'
 import ServiceCard from '@/components/service_card'
 import HostCard from '@/components/host_card'
 import Logos from '@/components/logos'
-import dropdownStyle from '../styles/dropdown.module.css'
+import '../styles/dropdown.css'
 // import '../styles/fontsStyle';
 // import Classes from '../styles/fontsStyle'
 import styles from '../styles/style.module.scss';
@@ -86,13 +86,13 @@ export default function Home() {
               </div>
 
               {/* 2 */}
-              <div className={`${styles.shapeSize} ${styles.borderRadiusSize} ${styles.marginSize} ${styles.paddingSize} z-50 rounded-2xl text-start bg-white items-center`} style={{ boxShadow: "0px 5px 108px #6C7E93", ...setPosition(0, "", 0, ""), ...setBox("", 245), ...setMargin(170, 150, "", ""), ...setPadding(20, 16, 27, 10), }}>
+              <div className={`${styles.shapeSize} ${styles.borderRadiusSize} ${styles.marginSize} ${styles.paddingSize} z-50 rounded-2xl text-start bg-white items-center`} style={{ boxShadow: "0px 5px 108px #6C7E93", ...setPosition(0, "", 0, ""), ...setBox("", 245), ...setMargin(170, 150, 0, 0), ...setPadding(20, 16, 27, 10), }}>
 
                 <p className={`${styles.f16} text-black text-md font-regular mb-3`} >Courses</p>
 
                 <div className={`flex flex-row justify-start`}>
 
-                  <p className={`${styles.f36} text-black font-medium ${styles.marginSize}`} style={{ ...setMargin(0, 0, 32, "") }} >1</p>
+                  <p className={`${styles.f36} text-black font-medium ${styles.marginSize}`} style={{ ...setMargin(0, 0, 32, 0) }} >1</p>
 
                   <img className={`${styles.imgSize}`} src={"icons/chart_2.svg"} alt='' style={{ ...setBox(97, 147) }} />
 
@@ -101,16 +101,16 @@ export default function Home() {
               </div>
 
               {/* 3 */}
-              <div className={`rounded-2xl text-start bg-white items-center ${styles.borderRadiusSize} ${styles.shapeSize} ${styles.marginSize} ${styles.paddingSize}`} style={{ ...setMargin(400, "", "", ""), ...setBox("", 495), ...setPosition(0, "", 0, ""), ...setPadding(26, 36, 28, 51), boxShadow: "0px 4px 60px #6C7E93", }}>
+              <div className={`rounded-2xl text-start bg-white items-center ${styles.borderRadiusSize} ${styles.shapeSize} ${styles.marginSize} ${styles.paddingSize}`} style={{ ...setMargin(400, 0, 0, 0), ...setBox("", 495), ...setPosition(0, "", 0, ""), ...setPadding(26, 36, 28, 51), boxShadow: "0px 4px 60px #6C7E93", }}>
 
-                <img className={`${styles.marginSize} ${styles.imgSize}`} src={"icons/Group 418.svg"} alt='' style={{ ...setMargin(0, "", "", 61), ...setBox(236, 439), }} />
+                <img className={`${styles.marginSize} ${styles.imgSize}`} src={"icons/Group 418.svg"} alt='' style={{ ...setMargin(0, 0, 0, 61), ...setBox(236, 439), }} />
 
                 <p className={`${styles.f16} font-normal`} style={{ color: "#4A44C6" }}>You have saved 12% of your spending compared to the previous month.</p>
 
               </div>
 
               {/* 4 */}
-              <div className={`${styles.shapeSize} ${styles.marginSize} ${styles.borderRadiusSize} ${styles.paddingSize} z-30 mt-[1%] rounded-2xl text-start bg-white items-start`} style={{ boxShadow: "0px 4px 60px #6C7E93", ...setMargin(910, "", "", ""), ...setBox("", 188), ...setPosition(0, "", 0, ""), ...setPadding(16, 20, 16, 20) }}>
+              <div className={`${styles.shapeSize} ${styles.marginSize} ${styles.borderRadiusSize} ${styles.paddingSize} z-30 mt-[1%] rounded-2xl text-start bg-white items-start`} style={{ boxShadow: "0px 4px 60px #6C7E93", ...setMargin(910, 0, 0, 0), ...setBox("", 188), ...setPosition(0, "", 0, ""), ...setPadding(16, 20, 16, 20) }}>
 
                 <div className={`${styles.imgSize} rounded mb-[8px]`} style={{ ...setBox(46, 46), }}>
                   <img className={`${styles.imgSize}`} src={"icons/Mask Group.svg"} alt='' style={{ ...setBox(46, 46) }} />
@@ -124,7 +124,7 @@ export default function Home() {
               </div>
 
               {/* 5 */}
-              <div className={`${styles.shapeSize} ${styles.paddingSize} ${styles.borderRadiusSize} ${styles.marginSize} rounded-2xl text-start bg-white items-start`} style={{ boxShadow: "0px 4px 60px #6C7E93", ...setMargin(670, 400, "", ""), ...setBox("", 245), ...setPosition(0, "", 0, ""), ...setPadding(16, 20, 16, 20) }}>
+              <div className={`${styles.shapeSize} ${styles.paddingSize} ${styles.borderRadiusSize} ${styles.marginSize} rounded-2xl text-start bg-white items-start`} style={{ boxShadow: "0px 4px 60px #6C7E93", ...setMargin(670, 400, 0, 0), ...setBox("", 245), ...setPosition(0, "", 0, ""), ...setPadding(16, 20, 16, 20) }}>
 
                 <p className={`${styles.f16} font-normal mb-[12px] text-[#364F65]`}>Total Students</p>
                 <p className={`${styles.f36} font-medium mb-[10px] text-[#364F65]`}>93</p>
@@ -134,7 +134,7 @@ export default function Home() {
               </div>
 
               {/* 6 */}
-              <div className={`z-1 rounded-2xl text-start bg-[#FAFBFC] items-start ${styles.borderRadiusSize} ${styles.shapeSize} ${styles.marginSize} ${styles.paddingSize}`} style={{ boxShadow: "0px 4px 60px #6C7E93", ...setPosition(0, "", 0, ""), ...setMargin(930, 250, "", ""), ...setBox("", 375), ...setPadding(40, 40, 30, 30), }}>
+              <div className={`z-1 rounded-2xl text-start bg-[#FAFBFC] items-start ${styles.borderRadiusSize} ${styles.shapeSize} ${styles.marginSize} ${styles.paddingSize}`} style={{ boxShadow: "0px 4px 60px #6C7E93", ...setPosition(0, "", 0, ""), ...setMargin(930, 250, 0, 0), ...setBox("", 375), ...setPadding(40, 40, 30, 30), }}>
 
                 <p className={`font-medium mb-[12px] text-[#203B54] ${styles.f24}`}>Termtest schedule</p>
 
@@ -183,7 +183,7 @@ export default function Home() {
           </div>
 
           {/* part 2 */}
-          <div className='flex flex-col justify-center items-center z-40 w-full overflow-hidden text-center relative'>
+          <div className='flex flex-col justify-center items-center z-40 w-full h-[1245px] max-[390px]:h-[800px] overflow-hidden text-center relative'>
 
             <div
               className="z-0 mx-auto absolute blur-2xl left-0 right-0 w-full"
@@ -205,19 +205,19 @@ export default function Home() {
 
             </div>
 
-            <div className={`flex flex-wrap justify-between max-[1820px]:justify-center items-center z-40 w-full h-full text-center relative ${styles.paddingSize}`} style={{ ...setPadding(128, "", 128, "") }}>
+            <div className={`flex flex-wrap justify-between max-[1820px]:justify-center items-center z-40 w-full h-full text-center relative ${styles.paddingSize}`} style={{ ...setPadding(128, 0, 128, 0) }}>
 
-              <img className={`${styles.shapeSize}`} style={{ ...setPosition("", 50, 150, ""), ...setBox(79, 89) }} src={"icons/grey_cube.svg"} alt='' />
+              <img className={`${styles.shapeSize}`} style={{ ...setPosition(0, 50, 150, 0), ...setBox(79, 89) }} src={"icons/grey_cube.svg"} alt='' />
 
-              <div className={`${styles.paddingSize} max-[1820px]:justify-center max-[1820px]:items-center`} style={{ ...setPadding(131, 250, "", "") }}>
+              <div className={`${styles.paddingSize} max-[1820px]:justify-center max-[1820px]:items-center`} style={{ ...setPadding(0, 250, 0, 0) }}>
                 <p className={`${styles.f60} font-semibold w-[431px] text-start max-[1820px]:text-center leading-[70px] mb-[20px]`}>Almost everything you need</p>
                 <p className={`${styles.f16} font-medium text-[#676767] mb-[57px]`}>ERPFlow comes with 1000+ objects to help you run your business</p>
 
-                <div className={`${styles.marginSize} max-[1820px]:justify-center max-[1820px]:items-center flex w-full`} style={{ ...setMargin("", "", "", 100) }}>
+                <div className={`${styles.marginSize} max-[1820px]:justify-center max-[1820px]:items-center flex w-full`} style={{ ...setMargin(0, 0, 0, 100) }}>
                   <FilledButton py={19} px={53} fillColor='#15BCCB' title='MORE Solutions' textColor='white' fontWeight='700px' fontSize={styles.f18} />
                 </div>
 
-                <img className={`${styles.imgSize} ${styles.marginSize}`} src={"icons/grey_cube.svg"} alt='' style={{ ...setBox(112, 125), ...setMargin(150, "", "", 40) }} />
+                <img className={`${styles.imgSize} ${styles.marginSize}`} src={"icons/grey_cube.svg"} alt='' style={{ ...setBox(112, 125), ...setMargin(150, 0, 0, 40) }} />
                 {/* absolute bottom-[150px] left-[350px] */}
               </div>
 
@@ -302,23 +302,23 @@ export default function Home() {
 
             <div className={`${styles.paddingSize} ${styles.imgSize} z-40 bg-gradient-to-b from-[white] to-[#FFFFFF30] rounded-[75px]`} style={{ ...setPadding(70, 109, 70, 109), ...setBox("", 1022), boxShadow: "0px 10px 50px #00000006" }}>
 
-              <p className={`${styles.f60} ${styles.marginSize} z-40 font-bold text-center leading-[70px]`} style={{ ...setMargin("", "", "", 51) }}>Frequently asked questions</p>
-              <nav className={`${styles.paddingSize}`} style={{ ...setPadding(146, "", 146, "") }}>
+              <p className={`${styles.f60} ${styles.marginSize} z-40 font-bold text-center leading-[70px]`} style={{ ...setMargin(0, 0, 0, 51) }}>Frequently asked questions</p>
+              <nav className={`${styles.paddingSize}`} style={{ ...setPadding(146, 0, 146, 0) }}>
                 <ul>
                   {
                     ['How does it work?', 'How can i setup a new website?', 'How does it work?', 'How does it work?', 'How does it work?'].map(e => (
-                      <li className={`${styles.marginSize}`} style={{ ...setMargin("", "", "", 37) }}>
-                        <a href="#nowhere">
+                      <li className={`${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 37) }}>
+                        <a href="#nowhere" className="yourLinkClass">
                           <div className={`${styles.imgSize} flex flex-row justify-between items-start border-b-[2px] border-[#EFEFEF]`} style={{ ...setBox(71, 590) }}>
                             <div className='flex flex-row'>
-                              <p className={`${styles.f21} z-40 font-medium text-center ${styles.marginSize}`} style={{ ...setMargin("", "", "", 42) }}>01</p>
+                              <p className={`${styles.f21} z-40 font-medium text-center ${styles.marginSize}`} style={{ ...setMargin(0, 0, 0, 42) }}>01</p>
                               <p className={`${styles.f18} z-40 font-semibold text-center`}>{e}</p>
                             </div>
                             <img className={styles.imgSize} src={"icons/arrow_down.svg"} alt='' style={{ ...setBox(7.33, 12) }} />
                           </div>
                         </a>
                         <ul>
-                          <li className={`font-medium ${styles.f16} text-[#676767] text-start ${styles.paddingSize}`} style={{ ...setPadding(50, 36, "", "") }}>Suppose you produce t-shirts in different sizes and colors. You’ll need to track each type of t-shirt and its variants, known as item variants. In ERPNext, the primary item is stored as an item template, and each of the variations is stored as an item variant. You can store any attribute, such as color or shape, for each item variant.</li>
+                          <li className={`font-medium ${styles.f16} text-[#676767] text-start ${styles.paddingSize}`} style={{ ...setPadding(50, 36, 0, 0) }}>Suppose you produce t-shirts in different sizes and colors. You’ll need to track each type of t-shirt and its variants, known as item variants. In ERPNext, the primary item is stored as an item template, and each of the variations is stored as an item variant. You can store any attribute, such as color or shape, for each item variant.</li>
                         </ul>
                       </li>
                     ))
